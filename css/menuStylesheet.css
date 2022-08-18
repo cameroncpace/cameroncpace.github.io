@@ -18,7 +18,7 @@
   text-align: justify;
 }
 .glance-box {
-  margin-top: 10vh;
+  margin-top: 5vh;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -27,7 +27,7 @@
 .glance-item {
   width: 40vw;
   height: 20vh;
-  margin-bottom: 15px;
+  margin-bottom: 5vh;
 }
 td {
   font-size: .8em;
@@ -79,6 +79,16 @@ img {
   border-radius: 25px 25px 25px 25px;
   height: 12vw;
   width: 17vw;
+}
+@media (height < 800px) {
+  .glance-item {
+    margin-bottom: 15vh;
+  }
+}
+@media (height < 600px) {
+  .glance-item {
+    margin-bottom: 25vh;
+  }
 }
 @media (width < 1200px) {
   .menu-flex {
