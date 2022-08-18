@@ -1,0 +1,136 @@
+.menu-flex {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding-top: 5vh;
+  width: 40vw;
+  margin-left: auto;
+  margin-right: auto;
+}
+.menu-box {
+  text-align: center;
+  padding: 5px;
+}
+.menu-box p {
+  padding-top: 1em;
+  padding-bottom: 1em;
+  text-align: justify;
+}
+.glance-box {
+  margin-top: 10vh;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.glance-item {
+  width: 40vw;
+  height: 20vh;
+  margin-bottom: 15px;
+}
+td {
+  font-size: .8em;
+}
+table {
+  width: inherit;
+  margin-left: auto;
+  margin-right: auto;
+  border-spacing: 0px;
+  text-align: center;
+  color: #FFE1A8;
+}
+td, th {
+  padding: 20px;
+}
+tr:nth-of-type(odd) {
+  background-color: #90473B;
+}
+tr:nth-of-type(even) {
+  background-color: #723D46;
+}
+.img-box {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.img-box p {
+  width: 45%;
+  margin-left: 5%;
+  margin-right: 5%;
+  text-align: center;
+}
+.collapsible {
+  cursor: pointer;
+  padding: .5vw;
+  border: none;
+  outline: none;
+  font-size: 15px;
+}
+.content {
+  padding-left: .5vw;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
+  text-align: justify;
+}
+img {
+  padding: 1em;
+  border-radius: 25px 25px 25px 25px;
+  height: 12vw;
+  width: 17vw;
+}
+@media (width < 1200px) {
+  .menu-flex {
+    width: 60vw;
+  }
+  .collapsible {
+    font-size: 20px;
+    width: 100%;
+  }
+  img {
+    height: 17vw;
+    width: 24vw;
+  }
+}
+@media (width < 900px) {
+  .menu-flex {
+    width: 70vw;
+  }
+  .collapsible {
+    font-size: 25px;
+    width: 100%;
+  }
+  img {
+    height: 24vw;
+    width: 31vw;
+  }
+  .glance-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .glance-item {
+    width: inherit;
+    height: inherit;
+  }
+  table {
+    width: 80vw;
+  }
+}
+@media (width < 700px) {
+  .menu-flex {
+    width: 100%;
+    margin-left: 0;
+    margin-right: 0;
+  }
+  .collapsible {
+    font-size: 25px;
+    width: 100%;
+    height: 100%;
+  }
+  img {
+    height: 22vw;
+    width: 30vw;
+  }
+}

@@ -1,0 +1,28 @@
+svg {
+  position: relative;
+  height: 40px;
+  width: 75px;
+  top: -8vh;
+  right: -40%;
+}
+polygon {
+  fill: #90473B;
+  stroke: #90473B;
+  stroke-width: 5;
+  fill-rule: nonzero;
+}
+polygon:hover {
+  fill: #D15664;
+  stroke: #D15664;
+  cursor: pointer;
+}
+@media (width < 700px) {
+  svg {
+    top: -7vh;
+  }
+}
+@media (width < 330px) {
+  svg {
+    right: -37%;
+  }
+}

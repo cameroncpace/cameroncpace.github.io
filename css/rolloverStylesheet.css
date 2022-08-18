@@ -1,0 +1,56 @@
+.rollover, .rolloverInline {
+  width: 15vw;
+  padding-top: 1vh;
+  padding-bottom: 1vh;
+  background-color: #723D46;
+  text-decoration: none;
+  transition: 0.5s;
+  text-align: center;
+  border-radius: 10px;
+}
+.rolloverInline {
+  display: inline;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+.rollover {
+  display: block;
+  width: 15vw;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  background-color: #723D46;
+  text-decoration: none;
+  transition: 0.5s;
+  font-size: 1.5em;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  border-radius: 10px;
+}
+.rollover:hover, .rolloverInline:hover {
+  background-color: #90473B;
+  padding: 1.25%;
+  border-radius: 10px;
+  text-decoration: none;
+}
+@media (width < 1200px) {
+  .rollover:hover, .rolloverInline:hover {
+    padding: 2%;
+  }
+  .rollover {
+    width: 25vw;
+    font-size: 1.25em;
+  }
+  .rolloverInline {
+    text-decoration: underline;
+    background-color: transparent;
+  }
+}
+@media (width < 500px) {
+  .rollover {
+    transition: none;
+  }
+  .rollover:hover, .rolloverInline:hover {
+    padding: 15px;
+  }
+}

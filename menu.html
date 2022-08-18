@@ -1,0 +1,144 @@
+<html lang="en">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <link rel="stylesheet" href="css/collectionStylesheet.css">
+    <title>Magni Menu</title>
+  </head>
+  <body>
+    <script src="js/script.js"></script>
+    <div class=wrapper>
+      <header>
+        <h4>Cameron Pace</h4>
+        <h1>Magni</h1>
+        <nav>
+          <div class=nav-flex>
+            <a class=nav-item href="index.html">Home</a>
+            <a class="nav-item, activeNav" href="menu.html">Menu</a>
+            <a class=nav-item href="about.html">About</a>
+            <a class=nav-item href="contact.html">Contact</a>
+          </div>
+        </nav>
+      </header>
+      <main>
+        <h5>Our menu fluctuates often as ingredients come in and out of season & alongside our chefs' themes.</h5><br><br>
+        <div class=menu-flex>
+          <div class=menu-box>
+            <button class=collapsible onClick="expand(this, 'mises')">+ mises en bouche&nbsp;&nbsp;</button>
+              <div id=mises class=content>
+                <div class=img-box>
+                  <a href="images/mise1.jpeg"><img src="images/mise1.jpeg"></img></a><a href="images/mise2.jpeg"><img src="images/mise2.jpeg"></img></a>
+                </div>
+                <div class=img-box>
+                  <p>Barbecued Watermelon<br>Pickled Watermelon Rind<br>Kohlrabi<br>Basil<br>Whipped Feta</p>
+                  <p>Carrot Spizzulus<br>Carrot Veloute<br>Duck Ham<br>Pistachio</p>
+                </div>
+              </div>
+          </div>
+          <div class=menu-box>
+            <button class=collapsible onClick="expand(this, 'entrees')">+ entrées&nbsp;&nbsp;</button>
+            <div id=entrees class=content>
+              <div class=img-box>
+                <a href="images/entree1.jpeg"><img src="images/entree1.jpeg"></img></a><a href="images/entree2.jpeg"><img src="images/entree2.jpeg"></img></a>
+              </div>
+              <div class=img-box>
+                <p>Argentinian Red Shrimp<br>Crispy Purple Potato<br>Kale & Pistachio Pesto</p>
+                <p>Wild Cod<br>Spring Pea<br>Glace de Poulet</p>
+              </div>
+            </div>
+          </div>
+          <div class=menu-box>
+            <button class=collapsible onClick="expand(this, 'plats')">+ plats principaux&nbsp;&nbsp;</button>
+            <div id=plats class=content>
+              <div class=img-box>
+                <a href="images/plat1.jpeg"><img src="images/plat1.jpeg"></img></a><a href="images/plat2.jpeg"><img src="images/plat2.jpeg"></img></a>
+              </div>
+              <div class=img-box>
+                <p>Ribeye<br>Butternut Squash<br>Chermoula<br>Apricot Mustard Seed Chutney</p>
+                <p>Artichoke Caramelle<br>Smoked Saffron Butter<br>Tomato<br>Cavolo Nero</p>
+              </div>
+            </div>
+          </div>
+          <div class=menu-box>
+            <button class=collapsible onClick="expand(this, 'desserts')">+ desserts&nbsp;&nbsp;</button>
+            <div id=desserts class=content>
+              <div class=img-box>
+                <a href="images/dessert1.jpeg"><img src="images/dessert1.jpeg"></a></img><a href="images/dessert2.jpeg"><img src="images/dessert2.jpeg"></img></a>
+              </div>
+              <div class=img-box>
+                <p>Tarte Au Vinaigre<br>Honey & Pistachio Frozen Custard<br>Fig</p>
+                <p>Georgia Peach Ice Cream<br>Pistachio Cake<br>Blueberry Anglaise</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class=glance-box>
+          <div class=glance-item>
+            <table>
+              <tr>
+                <th colspan=2>mises en bouche</th>
+              </tr>
+              <tr>
+                <td>Barbecued Watermelon, Pickled Watermelon Rind, Kohlrabi, Basil, Whipped Feta</td><td>$18</td>
+              </tr>
+              <tr>
+                <td>Carrot Spizzulus, Carrot Veloute, Duck Ham, Pistachio</td><td>$21</td>
+              </tr>
+            </table>
+          </div>
+          <div class=glance-item>
+            <table>
+              <tr>
+                <th colspan=2>entrées</th>
+              </tr>
+              <tr>
+                <td>Argentinian Red Shrimp, Crispy Purple Potato, Kale and Pistachio Pesto</td><td>$27</td>
+              </tr>
+              <tr>
+                <td>Wild Cod, Spring Pea, Glace de Poulet</td><td>$29</td>
+              </tr>
+            </table>
+          </div>
+          <div class=glance-item>
+            <table>
+              <tr>
+                <th colspan=2>plats principaux</th>
+              </tr>
+              <tr>
+                <td>Ribeye, Butternut Squash, Chermoula, Apricot Mustard Seed Chutney</td><td>$47</td>
+              </tr>
+              <tr>
+                <td>Artichoke Caramelle, Smoked Saffron Butter, Tomato, Cavolo Nero</td><td>$39</td>
+              </tr>
+            </table>
+          </div>
+          <div class=glance-item>
+            <table>
+              <tr>
+                <th colspan=2>desserts</th>
+              </tr>
+              <tr>
+                <td>Tarte Au Vinaigre, Honey & Pistachio Frozen Custard, Fig</td><td>$17</td>
+              </tr>
+              <tr>
+                <td>Georgia Peach Ice Cream, Pistachio Cake, Blueberry Anglaise</td><td>$18</td>
+              </tr>
+            </table>
+          </div>
+        </div>
+        <h5>Images courtesy of reddit.com/r/CulinaryPlating posts from user SpeakEasyChef, with <a href="images/permission.png">permission.</a></h5>
+      </main>
+      <footer>
+        <svg>
+          <polygon points="10,50 40,20 70,50" onClick="window.scrollTo(0, 0)"/>
+        </svg>
+        <div class=wideFooter>
+          <p>73 E Lexington Street
+          Boston, MA 02128<br>
+          <a id="mobile" href="tel:888-555-5555">888-555-5555</a><span id="desktop">888-555-5555</span><br>
+          <strong>Reservations Required</strong></p>
+          <p><span><a href="index.html">Home</a>&nbsp;&nbsp;<a href="menu.html" class=activeFooter>Menu</a>&nbsp;&nbsp;<a href="about.html">About</a>&nbsp;&nbsp;<a href="contact.html">Contact</a><br></span>Copyright © 2022 Magni - Cameron Pace</p><a href="mailto:cameronpace@magnirestaurant.com">Email Us<span id=email>: cameronpace@magnirestaurant.com</span></a>
+        </div>
+      </footer>
+    </div>
+  </body>
+</html>
