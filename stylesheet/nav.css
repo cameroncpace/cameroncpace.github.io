@@ -1,0 +1,56 @@
+header {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 1em;
+    font-size: 1.2em;
+    color: #14397D;
+}
+
+nav {
+    margin: auto 0 auto 0;
+    width: 30vw;
+    display: block;
+    text-align: right;
+}
+
+nav > span {
+    margin: 0 5px 0 5px;
+}
+
+.contact {
+    margin: auto 0 auto 0;
+    width: 20vw;
+    text-align: center;
+    display: block;
+
+}
+
+#toggle {
+    display: none;
+}
+
+#contact {
+    display: none;
+}
+
+@media screen and (max-width: 1200px){
+    nav {
+        display: none;
+    }
+
+    #toggle {
+        display: flex;
+        align-items: center;
+    }
+
+    .contact {
+        display: none;
+    }
+
+    #contact {
+        display: flex;
+        align-items: center;
+    }
+
+}
