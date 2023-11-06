@@ -1,3 +1,3 @@
 # cameroncpace.github.io
-Pace, Cameron: NEU ITC2400 Web &amp; Mobile Development Final Project Summer 2022
-This is a website I made for my Web & Mobile Development class at NEU. All images used are CC licensed or used with explicit permission from their creator.
+Pace, Cameron; Kang, Min Soo; Hussein, Abdullahi: NEU ITC4850 IT Project Fall 2023
+This is a website made for Tamer Flores of Bizdeglo for the IT Project capstone in partnership with NEU XN.
